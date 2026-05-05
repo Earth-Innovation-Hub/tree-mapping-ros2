@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tree_mapping_geometry</name>
+  <version>0.1.0</version>
+  <description>
+    ROS 2 (Jazzy) port of the geometry stage of the DREAMS-lab tree-mapping
+    pipeline (Vishwanatha and Das, ASU). Provides:
+
+      * Cylinder fitting (Ceres-based nonlinear optimization) for tree
+        trunks / branches given a per-segment point cloud.
+      * Branch-instance segmentation from a Velodyne range image.
+
+    Vendored / ported from upstream:
+      tree_mapping/src/cylinderFitting{,_BasePoint,_ResidualEval,_Data}.{cpp,h}
+      tree_mapping/src/branchInstanceSegmentation{,_continuous}.cpp
+      tree_mapping/src/main_RosAndFileHandler.{cpp,h}
+      tree_mapping/src/main_UtilsAndParams.{cpp,h}
+      tree_mapping/src/pcd_custom_types.h
+  </description>
+  <maintainer email="deepgis@example.com">DeepGIS Team</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>builtin_interfaces</depend>
+  <depend>cv_bridge</depend>
+  <depend>pcl_conversions</depend>
+  <depend>libpcl-all-dev</depend>
+  <depend>libopencv-dev</depend>
+  <depend>libceres-dev</depend>
+  <depend>libgoogle-glog-dev</depend>
+  <depend>libgflags-dev</depend>
+  <depend>eigen</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
