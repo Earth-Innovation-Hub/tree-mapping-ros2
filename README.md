@@ -5,6 +5,11 @@ Using Deep Learning and Multi-Sensor Factor Graph* pipeline.
 
 ![ICRA 2022 poster: Real-Time Semantic Mapping of Tree Topology Using Deep Learning and Multi-Sensor Factor Graph](docs/tree_mapping_poster_p1.png)
 
+For pre-rendered validation visuals (cylinder fits + branch segmentation
+overlays + residual epsilon checks), see [`samples/`](samples/).
+
+![Cylinder fitter — 7 reference cases](samples/cylinder_fitter/grid_all_cases.png)
+
 ## Pipeline overview
 
 | # | Stage                       | Original code                                                                         | Port target              |

@@ -1,0 +1,385 @@
+$ ros2 run tree_mapping_geometry cylinder_fitting_residual_eval 0 2.0 1.0 1.5707963267948966 1.5707963267948966 0.0
+
+PARAMS RECEIVED: 0, 2, 1, 1.5708, 1.5708, 0
+MANUAL CYLINDER
+PHI_CENTER: 4.71239
+set center: 0, 3, 0
+circle_size: 5
+set center: 0, 3, 1
+circle_size: 5
+set center: 0, 3, 2
+circle_size: 5
+CYLINDER POINTS
+ring: 0
+Circle Points
+-1, 3, 6.12323e-17
+-0.707107, 2.29289, 6.12323e-17
+-1.83697e-16, 2, 6.12323e-17
+0.707107, 2.29289, 6.12323e-17
+1, 3, 6.12323e-17
+ring: 1
+Circle Points
+-1, 3, 1
+-0.707107, 2.29289, 1
+-1.83697e-16, 2, 1
+0.707107, 2.29289, 1
+1, 3, 1
+ring: 2
+Circle Points
+-1, 3, 2
+-0.707107, 2.29289, 2
+-1.83697e-16, 2, 2
+0.707107, 2.29289, 2
+1, 3, 2
+== CALCULATING COST ==
+---------------- 0 | -1,3,6.12323e-17
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+         -1
+          3
+6.12323e-17
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+          -1
+           0
+-1.22465e-16
+cross_pdt:
+  7.4988e-33
+          -1
+-6.12323e-17
+cross_pdt_norm: 1
+---
+residual: 0
+residual_vec: 8.88178e-16
+residual_eqn22: 2.22045e-16
+---------------- 1 | -0.707107,2.29289,6.12323e-17
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+  -0.707107
+    2.29289
+6.12323e-17
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+   -0.707107
+   -0.707107
+-1.22465e-16
+cross_pdt:
+    0.707107
+   -0.707107
+-4.32978e-17
+cross_pdt_norm: 1
+---
+residual: 0
+residual_vec: 4.44089e-16
+residual_eqn22: 2.22045e-16
+---------------- 2 | -1.83697e-16,2,6.12323e-17
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+-1.83697e-16
+           2
+ 6.12323e-17
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+-3.67394e-16
+          -1
+-1.22465e-16
+cross_pdt:
+           1
+-3.67394e-16
+ -1.8747e-32
+cross_pdt_norm: 1
+---
+residual: 0
+residual_vec: 0
+residual_eqn22: 0
+---------------- 3 | 0.707107,2.29289,6.12323e-17
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+   0.707107
+    2.29289
+6.12323e-17
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+    0.707107
+   -0.707107
+-1.22465e-16
+cross_pdt:
+   0.707107
+   0.707107
+4.32978e-17
+cross_pdt_norm: 1
+---
+residual: 4.44089e-16
+residual_vec: 8.88178e-16
+residual_eqn22: 0
+---------------- 4 | 1,3,6.12323e-17
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+          1
+          3
+6.12323e-17
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+           1
+-4.44089e-16
+-1.22465e-16
+cross_pdt:
+4.44089e-16
+          1
+6.12323e-17
+cross_pdt_norm: 1
+---
+residual: 4.44089e-16
+residual_vec: 4.44089e-16
+residual_eqn22: -2.22045e-16
+---------------- 5 | -1,3,1
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+-1
+ 3
+ 1
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+-1
+ 0
+ 1
+cross_pdt:
+-6.12323e-17
+          -1
+-6.12323e-17
+cross_pdt_norm: 1
+---
+residual: 0
+residual_vec: 0
+residual_eqn22: 2.22045e-16
+---------------- 6 | -0.707107,2.29289,1
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+-0.707107
+  2.29289
+        1
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+-0.707107
+-0.707107
+        1
+cross_pdt:
+    0.707107
+   -0.707107
+-4.32978e-17
+cross_pdt_norm: 1
+---
+residual: 0
+residual_vec: 4.44089e-16
+residual_eqn22: 2.22045e-16
+---------------- 7 | -1.83697e-16,2,1
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+-1.83697e-16
+           2
+           1
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+-3.67394e-16
+          -1
+           1
+cross_pdt:
+           1
+-3.67394e-16
+ -1.8747e-32
+cross_pdt_norm: 1
+---
+residual: 0
+residual_vec: 4.44089e-16
+residual_eqn22: -1.11022e-16
+---------------- 8 | 0.707107,2.29289,1
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+0.707107
+ 2.29289
+       1
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+ 0.707107
+-0.707107
+        1
+cross_pdt:
+   0.707107
+   0.707107
+4.32978e-17
+cross_pdt_norm: 1
+---
+residual: 4.44089e-16
+residual_vec: 8.88178e-16
+residual_eqn22: -1.11022e-16
+---------------- 9 | 1,3,1
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+1
+3
+1
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+           1
+-4.44089e-16
+           1
+cross_pdt:
+3.82857e-16
+          1
+6.12323e-17
+cross_pdt_norm: 1
+---
+residual: 4.44089e-16
+residual_vec: -4.44089e-16
+residual_eqn22: -2.22045e-16
+---------------- 10 | -1,3,2
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+-1
+ 3
+ 2
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+-1
+ 0
+ 2
+cross_pdt:
+-1.22465e-16
+          -1
+-6.12323e-17
+cross_pdt_norm: 1
+---
+residual: 4.44089e-16
+residual_vec: 4.44089e-16
+residual_eqn22: 2.22045e-16
+---------------- 11 | -0.707107,2.29289,2
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+-0.707107
+  2.29289
+        2
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+-0.707107
+-0.707107
+        2
+cross_pdt:
+    0.707107
+   -0.707107
+-4.32978e-17
+cross_pdt_norm: 1
+---
+residual: 8.88178e-16
+residual_vec: 0
+residual_eqn22: 2.22045e-16
+---------------- 12 | -1.83697e-16,2,2
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+-1.83697e-16
+           2
+           2
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+-3.67394e-16
+          -1
+           2
+cross_pdt:
+           1
+-3.67394e-16
+ -1.8747e-32
+cross_pdt_norm: 1
+---
+residual: 4.44089e-16
+residual_vec: 1.33227e-15
+residual_eqn22: -1.11022e-16
+---------------- 13 | 0.707107,2.29289,2
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+0.707107
+ 2.29289
+       2
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+ 0.707107
+-0.707107
+        2
+cross_pdt:
+   0.707107
+   0.707107
+4.32978e-17
+cross_pdt_norm: 1
+---
+residual: 4.44089e-16
+residual_vec: 4.44089e-16
+residual_eqn22: -1.11022e-16
+---------------- 14 | 1,3,2
+PARAMS RECEIVED in cost functor: 2, 1, 1.5708, 1.5708, 0
+p_vec:
+1
+3
+2
+n_vec:
+6.12323e-17
+          1
+6.12323e-17
+diff_vec:
+           1
+-4.44089e-16
+           2
+cross_pdt:
+3.21625e-16
+          1
+6.12323e-17
+cross_pdt_norm: 1
+---
+residual: 8.88178e-16
+residual_vec: 1.77636e-15
+residual_eqn22: -2.22045e-16
+tot_cost: 2.95823e-30
+tot_cost/2.0: 1.47911e-30
+tot_cost_vec: 8.67747e-30
+tot_cost_vec/2.0: 4.33873e-30
+tot_cost_eqn22: 4.93038e-31
+tot_cost_eqn22/2.0: 2.46519e-31

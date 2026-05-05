@@ -1,0 +1,9 @@
+[INFO] [1777979820.672295471] [branch_segmenter]: Using user base=(7.500,0.000,0.000) eps_before=10.00 eps_after=10.00
+[INFO] [1777979820.672405560] [branch_segmenter]: Loading PCD: /home/jdas/Downloads/TreeMapping-master/tree_mapping/pointclouds/pcd_xyzir/cloud0_0.000000.pcd
+[INFO] [1777979820.684432075] [branch_segmenter]: Loaded 10477 3D points; ang res (deg) x=0.200 y=0.200; d_thresh=0.330
+[INFO] [1777979820.723329787] [branch_segmenter]: Range image (HxW) = 121x1800
+[INFO] [1777979820.733390288] [branch_segmenter]: Range-band filter: keep 2.500 m <= range <= 17.500 m (approx=7.500)
+[INFO] [1777979820.741343161] [branch_segmenter]: After filter: 121x1800
+[INFO] [1777979820.751761367] [branch_segmenter]: Instance segmentation: 11440 cluster points, max instance idx 14
+[INFO] [1777979820.759912916] [branch_segmenter]: Wrote instance mask: /home/jdas/src/tree-mapping-ros2/samples/branch_segmenter/cloud0/branch_instances_0_x_0.200000_y_0.200000_d_0.330000.txt
+[INFO] [1777979828.389327172] [rclcpp]: signal_handler(SIGINT/SIGTERM)

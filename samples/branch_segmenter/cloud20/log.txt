@@ -1,0 +1,11 @@
+[INFO] [1777979828.790366690] [branch_segmenter]: Using user base=(5.000,0.000,0.000) eps_before=10.00 eps_after=10.00
+[INFO] [1777979828.790449540] [branch_segmenter]: Loading PCD: /home/jdas/Downloads/TreeMapping-master/tree_mapping/pointclouds/pcd/cloud20_20.000000.pcd
+Failed to find match for field 'intensity'.
+Failed to find match for field 'ring'.
+[INFO] [1777979828.798550359] [branch_segmenter]: Loaded 9943 3D points; ang res (deg) x=0.200 y=0.200; d_thresh=0.330
+[INFO] [1777979828.836602861] [branch_segmenter]: Range image (HxW) = 121x1799
+[INFO] [1777979828.845753103] [branch_segmenter]: Range-band filter: keep 5.000 m <= range <= 15.000 m (approx=5.000)
+[INFO] [1777979828.853726496] [branch_segmenter]: After filter: 121x1799
+[INFO] [1777979828.864529307] [branch_segmenter]: Instance segmentation: 12166 cluster points, max instance idx 14
+[INFO] [1777979828.872840598] [branch_segmenter]: Wrote instance mask: /home/jdas/src/tree-mapping-ros2/samples/branch_segmenter/cloud20/branch_instances_20_x_0.200000_y_0.200000_d_0.330000.txt
+[INFO] [1777979836.510294497] [rclcpp]: signal_handler(SIGINT/SIGTERM)

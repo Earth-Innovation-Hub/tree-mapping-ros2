@@ -1,0 +1,49 @@
+==================================================
+CASE file_num=0
+==================================================
+[cylinder_fitter_node-1] [INFO] [1777979690.452154707] [cylinder_fitter]: Loaded /home/jdas/Downloads/TreeMapping-master/tree_mapping/pointclouds/pcd_real_for_cylinders_manual/paloverde/cloud_00000000_base.pcd (35 points)
+[cylinder_fitter_node-1] [INFO] [1777979690.452191147] [cylinder_fitter]: %%%%%%% EXTRACT RADIUS %%%%%%%
+[cylinder_fitter_node-1] [INFO] [1777979690.464360721] [cylinder_fitter]: FIT DONE: rho=4.410949 r=0.126341 theta=107.2131 deg phi=4.4400 deg alpha=-175.3306 deg
+
+==================================================
+CASE file_num=1
+==================================================
+[cylinder_fitter_node-1] [INFO] [1777979698.451086650] [cylinder_fitter]: Loaded /home/jdas/Downloads/TreeMapping-master/tree_mapping/pointclouds/pcd_real_for_cylinders_manual/paloverde/cloud_00000000_base_wTrans.pcd (56 points)
+[cylinder_fitter_node-1] [INFO] [1777979698.451169052] [cylinder_fitter]: %%%%%%% EXTRACT RADIUS %%%%%%%
+[cylinder_fitter_node-1] [INFO] [1777979698.463998292] [cylinder_fitter]: FIT DONE: rho=4.482868 r=0.145122 theta=100.5042 deg phi=3.6840 deg alpha=181.3692 deg
+
+==================================================
+CASE file_num=2
+==================================================
+[cylinder_fitter_node-1] [INFO] [1777979706.452445665] [cylinder_fitter]: Loaded /home/jdas/Downloads/TreeMapping-master/tree_mapping/pointclouds/pcd_real_for_cylinders_manual/paloverde/cloud_00000000_left.pcd (31 points)
+[cylinder_fitter_node-1] [INFO] [1777979706.452534867] [cylinder_fitter]: %%%%%%% EXTRACT RADIUS %%%%%%%
+[cylinder_fitter_node-1] [INFO] [1777979706.458888311] [cylinder_fitter]: FIT DONE: rho=4.493872 r=0.083676 theta=87.5744 deg phi=6.4837 deg alpha=-16.2157 deg
+
+==================================================
+CASE file_num=4
+==================================================
+[cylinder_fitter_node-1] [INFO] [1777979714.475344554] [cylinder_fitter]: Loaded /home/jdas/Downloads/TreeMapping-master/tree_mapping/pointclouds/pcd_real_for_cylinders_manual/paloverde/cloud_00000000_left_wOutlierRingOnly.pcd (32 points)
+[cylinder_fitter_node-1] [INFO] [1777979714.475444412] [cylinder_fitter]: %%%%%%% EXTRACT RADIUS %%%%%%%
+[cylinder_fitter_node-1] [INFO] [1777979714.481953318] [cylinder_fitter]: FIT DONE: rho=4.494734 r=0.087998 theta=87.4808 deg phi=6.5089 deg alpha=-15.7724 deg
+
+==================================================
+CASE file_num=5
+==================================================
+[cylinder_fitter_node-1] [INFO] [1777979722.461303956] [cylinder_fitter]: Loaded /home/jdas/Downloads/TreeMapping-master/tree_mapping/pointclouds/pcd_real_for_cylinders_manual/paloverde/cloud_00000000_right.pcd (30 points)
+[cylinder_fitter_node-1] [INFO] [1777979722.461337906] [cylinder_fitter]: %%%%%%% EXTRACT RADIUS %%%%%%%
+[cylinder_fitter_node-1] [INFO] [1777979722.466787055] [cylinder_fitter]: FIT DONE: rho=4.532313 r=0.125625 theta=96.7178 deg phi=1.7934 deg alpha=-178.0047 deg
+
+==================================================
+CASE file_num=6
+==================================================
+[cylinder_fitter_node-1] [INFO] [1777979730.473203772] [cylinder_fitter]: Loaded /home/jdas/Downloads/TreeMapping-master/tree_mapping/pointclouds/pcd_real_for_cylinders_manual/paloverde/cloud_00000000_rightleft.pcd (48 points)
+[cylinder_fitter_node-1] [INFO] [1777979730.473298753] [cylinder_fitter]: %%%%%%% EXTRACT RADIUS %%%%%%%
+[cylinder_fitter_node-1] [INFO] [1777979730.479774953] [cylinder_fitter]: FIT DONE: rho=4.454938 r=0.090726 theta=68.6054 deg phi=7.0260 deg alpha=-17.6296 deg
+
+==================================================
+CASE file_num=7
+==================================================
+[cylinder_fitter_node-1] [INFO] [1777979738.468704300] [cylinder_fitter]: Loaded /home/jdas/Downloads/TreeMapping-master/tree_mapping/pointclouds/pcd_real_for_cylinders_manual/paloverde/cloud_00000000_rightright.pcd (36 points)
+[cylinder_fitter_node-1] [INFO] [1777979738.468812164] [cylinder_fitter]: %%%%%%% EXTRACT RADIUS %%%%%%%
+[cylinder_fitter_node-1] [INFO] [1777979738.476132017] [cylinder_fitter]: FIT DONE: rho=4.752736 r=0.052457 theta=91.5225 deg phi=2.2390 deg alpha=-163.5675 deg
+
